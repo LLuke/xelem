@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	     "http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD>
+	<TITLE>XMLConverter - help</TITLE>
+	<META http-equiv="content-type" content="text/html; charset=ISO-8859-15" />
+	<META http-equiv="Content-Style-Type" content="text/css" />
+	<LINK rel="stylesheet" href="xelemsf.css" type="text/css" />
+	</HEAD><BODY>
+
+	<TABLE class="vast" width="690">
+	<TR><TD class="top" width="40">&nbsp;</TD>
+	<TD class="top" width="650">
+<!-- begin middenkolom -->
+
+	<P>&nbsp;
+	<H1>XMLConverter - help</H1>
+	<DIV class="firstpar">
+		The file converter will convert Microsoft Excel files to xml-files of type 
+		spreadsheetML. It can copy the original directory-structure to the new
+		location of the converted files.
+	</DIV>
+	<P>
+	<img src="conv.jpg">
+	<P>
+	<HR>
+	<UL>
+	<LI>Macro Security must be set to medium or low. (&gt;Tools &gt;Macro &gt;Security). 
+	<LI>Upon opening converter.xla press Enable Macro's.
+	</UL>
+	<HR>
+	<P>
+	<b>directory to search</b>
+	<BR>Specify the directory to search. Use the Browse... button to locate the directory.
+	The file search will include all files with the extension .xls, .xlt, .xla regardless 
+	of the type of the file. Mind that xml spreadsheets with the extension .xml are not
+	included, whereas xml spreadsheets with the extension .xls are included in the search.
+	<P>
+	<b>include subdirectories</b>
+	<BR>Check if you want to include subdirectories in the search.
+	<P>
+	<b>copy to</b>
+	<BR>Specify where to save the converted files. Use the Browse... button to locate 
+	the directory. The converted files will be saved as xml-spreadsheets with the extension
+	.xml. If you checked the include subdirectories checkbox the converted
+	files will be saved in a similar directory-structure as the original files.
+	<P>
+	<b>create log</b>
+	<BR>Check if you want a workbook report on the conversion. Will include
+	old path, old name, new path, new name and error messages.
+	<P>
+	<b>Start</b>
+	<BR>Start the conversion. The interface will react irresponsive while Excel
+	creates a list of files to convert. This action may take a while, especially if
+	large directory-structures are being searched. Before the conversion process
+	begins you wil get a chance to cancel the process. After that the conversion process
+	can only be interrupted by pressing Control + Break. Use this drastic measure
+	only in case of emergency.
+	<P>
+	The conversion process will halt upon opening password protected workbooks and workbooks with
+	linked data. The usual message will be displayed. During tests only workbooks containing
+	weird VBA-code that was set to execute upon opening deteriorated the process.
+	<BR>MARK THAT VBA-CODE THAT EXECUTES UPON OPENING OF A WORKBOOK THAT IS TO BE
+	CONVERTED CAN HARM YOUR COMPUTER AND/OR FILES!
+
+
+<!-- einde middenkolom -->
+	</TD>
+	</TR>
+	</TABLE>
+	</BODY>
+</HTML>

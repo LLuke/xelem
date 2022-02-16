@@ -1,0 +1,62 @@
+BODY {
+	background: white;
+	color: #0C0E5E;
+	font-family: "Arial, Helvetica", sans-serif;
+	font-size: 80%;
+	line-height: 1.3em;
+	margin: 0.3em 0.5em 0.5em 0.5em;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	color: #405260;
+}
+
+PRE { font-family: "Courier new"; }
+CODE { font-family: "Courier new"; }
+
+.verysmall { font-size: 80%; }
+
+DIV.firstpar {
+	font-size: 115%;
+	line-height: 1.3em;
+}
+
+TABLE.vast { table-layout: fixed; }
+
+TD {
+	color: #0C0E5E;
+	font-size: 97%;
+}
+
+TD.top 	{ vertical-align: top; }
+
+.blsilver { background: #F1F1F5; }
+
+
+.menu_	{ text-decoration: none;
+			color: black;
+			font-weight: bold;
+			font-size: 95%;
+			padding: 0.2em 0.1em 0.1em 0.1em; }
+
+.menu	{ text-decoration: none;
+			color: gray;
+			font-weight: bold;
+			font-size: 95%;
+			padding: 0.2em 0.1em 0.1em 0.1em; }
+A.menu:link    { color: gray; }
+A.menu:visited { color: gray }
+A.menu:hover   { 	text-decoration: none;
+					color: navy;  }
+A.menu:active  { color: red;  }
+
+A.kop	{ font-weight: bold; 	text-decoration: none; }
+A.kop:link  	{ color: navy;	}
+A.kop:visited 	{ color: navy;	}
+A.kop:hover   	{ color: blue;	text-decoration: underline; }
+A.kop:active 	{ color: red;	}
+
+A.text {
+	color: #1C0E5E;
+	text-decoration: underline;
+}
